@@ -1,0 +1,19 @@
+
+
+
+Randomize order of words, so we may look at overall trends in delay time over the course of the test and correct for it
+
+
+
+put survey after Test
+put test instructions before Test
+
+
+Contact us? Buy us coffee?
+
+
+??? progress bar ??? (leaning towards no, as it may distract) (don't know whether it would discourage or encourage user from finishing) (not super feasible once number of prompts starts to vary)
+
+Set up server/database
+Set up routes to send user info/words to server
+Set up buttons to make this happen

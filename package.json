@@ -1,8 +1,8 @@
 {
-  "name": "project",
+  "name": "word-association-test",
   "version": "0.1.0",
   "private": true,
-  "description": "Describe your project",
+  "description": "Automated implementation of Jung's word association test",
   "engines": {
     "node": "12.14.x"
   },
@@ -18,20 +18,15 @@
   ],
   "keywords": [],
   "contributors": [
-    "Student1 <student1@middlebury.edu>",
-    "Student2 <student2@middlebury.edu>",
-    "Student3 <student2@middlebury.edu>",
-    "Student4 <student3@middlebury.edu>",
-    "Student5 <student4@middlebury.edu>",
-    "Student6 <student5@middlebury.edu>",
-    "Student7 <student6@middlebury.edu>"
+    "Bruce Atwood <batwood@brandeis.edu>"
   ],
   "license": "Apache-2.0",
   "devDependencies": {
     "concurrently": "^5.0.2",
     "husky": "^4.2.0",
     "lint-staged": "^10.0.1",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "jest-enzyme" : "^7.1.2"
   },
   "husky": {
     "hooks": {
@@ -42,5 +37,13 @@
     "{client/src,server}/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.3.2",
+    "bootstrap": "^4.4.1",
+    "popper.js": "^1.16.1",
+    "react-select": "^3.1.0",
+    "reactstrap": "^8.4.1",
+    "styled-components": "^5.1.0"
   }
 }
